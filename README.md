@@ -1,4 +1,4 @@
-## Sample-Website
+## Sample Website
 
 A very basic sample website  
 using just html and css  
