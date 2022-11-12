@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Sample Website</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+<div class="row">
+
+<div class="column left">
+<center>
+<p>
+<a href="index.html">&nbsp;Home&nbsp;</a><br><br>
+<a href="ptwo.html">Page 2</a><br><br> 
+<a class="sel" href="pthree.html">Page 3</a><br><br> 
+<a href="pfour.html">Page 4</a><br><br> 
+<a href="pfive.html">Page 5</a><br><br>
+</p>
+</center>
+</div>
+
+
+<div class="column middle">
+<h2>Sample Website</h2>
+<h3>This is Page 3</h3>
+
+<hr class="line">
+<br><br>
+
+
+<b>HTML and CSS</b>
+<br><br>
+
+<p><b>HTML</b> stands for <b>Hyper Text Markup Language</b></p>
+
+<p>HTML is a markup language used to design websites.<br>
+With HTML, we can create web pages and even entire websites.<br>
+In html we use tags. Each tag has an <i>opening</i>  &lt; &gt; and <i>closing</i>  &lt; /&gt; tag. <br>
+The content of your page (text, images, etc.) goes in between these tags.<br>
+There are tags for bold, italics, paragraphs, headers, links, images, and so on.</p>
+
+<p>Necessary tags in each html page are the html tag, head tag, body tag, and DOCTYPE.<br>
+I like to include a title tag also, as it reflects the title of your page in the browsers title bar.</p>
+
+<p>Every page needs to include the tags below:<br><br>
+<ul>
+<li>DOCTYPE tag &lt;!DOCTYPE html&gt; - specifies to browsers which Document Type is being used.</li><br>
+<li>Opening html tag &lt;html&gt; - everything between this tag, and matching closing tag is html.</li><br>
+<li>Opening head tag &lt;head&gt; - contains title and other metadata stuff used by search engines.</li><br>
+<li>Closing head tag &lt;/head&gt; - used to close off head section and begin body section.</li><br>
+<li>Opening body tag &lt;body&gt; - used to begin main content of your pages</li><br>
+<li>Closing body tag &lt;/body&gt; - end of content</li><br>
+<li>Closing html tag &lt;/html&gt; - end of html (also the last line).</li><br>
+</ul>
+
+<p>In that order.</p>
+
+<p>The title tag is not necessary for the site to work, it is optional.<br>
+If you include a title tag, place it between the opening and closing head tags (head section).<br><br>
+Example:<br><br>
+
+&lt;!DOCTYPE html&gt;<br><br>
+
+&lt;html&gt;<br><br>
+
+&lt;head&gt;<br>
+&lt;title&gt;Home Page&lt;/title&gt;<br>
+&lt;/head&gt;<br><br>
+
+&lt;body&gt;<br>
+Content for this page goes here (between the body tags).<br>
+This is a bare minimul of code. 
+&lt;/body&gt;<br><br>
+
+&lt;/html&gt;
+<br><br><br>
+
+That's it.<br>
+Notice, all tags have closing tags, except the doctype, which doesn't need one.<br>
+If you save that little bit in a text editor (i.e.  test.html)<br>
+and open it in a browser, you will see that it works.
+</p>
+
+<br>
+<hr class="line">
+<br>
+
+<p><b>CSS</b> stands for <b>Cascading Style Sheet</b></p>
+
+<p>A style sheet is used to <i>style</i> your website.<br>
+Everything on your website (text, margins, borders, images, etc.) has properties.<br>
+Using style sheets (css) makes designing your website easy by assigning certain properties<br>
+to elements within your website.<br>
+For instance, if you want all the headers on every page of your site to be the same font, size, and color, you would do this in your style sheet.<br>
+If you want all <b>bold</b> text to be Arial, 12pt, green. You would assign those properties in the css file.</p>
+
+<p>Example:<br><br>
+
+b {<br>
+&emsp; font-family: 'Arial', times, 'serif';<br>
+&emsp; font-size: 12pt;<br>
+&emsp; color: green;<br>
+&nbsp;}
+</p>
+
+<p>Notice the curly brackets and semi-colons, both must be used and in place.<br>
+Indentation is not necessary, it's just for neatness.<br>
+We also name 3 fonts here, arial is priority (first in line).<br>
+If for some reason, someone doesn't have that font installed on their system, times (second in line) would then be used, 
+if that fails, serif would be used. Think of these extra fonts as back-ups.</p>
+
+<p>CSS has come a long way and is very useful. You can do a lot with it and is very much worth learning if you're into Web Design.
+All margins, padding, borders, etc. will be exactly the same across all pages with the use of css, as opposed to a lot of guess work and calculations using just plain html.</p>
+<br><br>
+
+<center>
+<a class="topper" href="#">&bull; back to top &bull;</a>
+</center>
+</div>
+
+<div class="column right">
+<p>
+<b>Updates & Other Notes<br>
+(in descending order)</b>
+<br><br>
+
+<p class="rc"><b>Update #3 - Nov 11, 2022</b><br>
+Uploading files to GitHub.
+</p>
+
+<p class="rc"><b>Update #2 - Oct 31, 2022</b><br>
+GitHub Pages? Yes you can absolutely use this for GitHub Pages. I would love to see that happen. Short guide on how to do that on page 2.</p>
+
+<p class="rc"><b>Update #1 - Oct 30, 2022</b><br>
+At first, this was a 2 column layout, but because I had a lot of space on the right side (almost equal to left) I added a 3rd column here, which turned out for the better since I am actually using it now.</p>
+
+<p class="rc"><b>Update #0 - Oct 29, 2022</b><br>
+Eventually I will put any updates and other notes here, in descending order (most recent at top).</p>
+
+
+</div>
+</div>
+<div class="footer">Copyright &copy; 2022 David Lawson &bull; All rights reserved.</div>
+</body>
+</html>
+
