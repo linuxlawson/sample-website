@@ -115,35 +115,26 @@ h6 {
   color: #440000;
 }
 
-/* link properties */
+/* menu links */
 a:link {
-  border-radius: 4px;
   color: #442200;
   text-decoration: none;
-  box-shadow: inset -6px -6px 8px -8px #442200;
+  border-radius: 4px;
   padding: 4px;
   padding-left: 8px;
   padding-right: 8px;
+  box-shadow: inset -6px -6px 8px -8px #442200;
 }
 
 a:hover {
-  color: #442200;
-  text-decoration: none;
   box-shadow: inset 2px 2px 4px 0.5px #442200;
-  padding: 4px;
-  padding-left: 8px;
-  padding-right: 8px;
 }
 
 /* selected menu button */
 a.sel {
-  color: #442200;
-  text-decoration: none;
   box-shadow: inset 2px 2px 4px 0.5px #442200;
-  padding: 4px;
-  padding-left: 8px;
-  padding-right: 8px;
 }
+
 
 /* back to top link */
 a.topper {
@@ -183,3 +174,11 @@ dl {
   font-size: 11pt;
 }
 
+/* experimental */
+hr.circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 45px;
+  border: 2px solid #FDF5E6;
+  box-shadow: 0px 0px 12px 10px #442200;
+}
