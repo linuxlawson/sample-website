@@ -32,7 +32,6 @@
 
 .right {
   width: 16%;
-/* box-shadow: inset 4px 4px 10px -1px #442200; */
   margin-left: 12px;   
   padding-left: 20px;
   padding-right: 8px;
@@ -118,6 +117,7 @@ h6 {
 
 /* link properties */
 a:link {
+  border-radius: 4px;
   color: #442200;
   text-decoration: none;
   box-shadow: inset -6px -6px 8px -8px #442200;
@@ -135,7 +135,7 @@ a:hover {
   padding-right: 8px;
 }
 
-/* keeps menu button active */
+/* selected menu button */
 a.sel {
   color: #442200;
   text-decoration: none;
