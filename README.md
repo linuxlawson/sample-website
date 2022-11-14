@@ -1,7 +1,7 @@
 ## Sample Website
 
 A very basic sample website  
-using just html and css  
+using just html and css.    
 
 Three column layout  
 made for future use.  
