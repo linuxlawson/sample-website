@@ -12,15 +12,17 @@
 }
 
 .left {
+  background-color: #FDF5E6;
   width: 16%;
   border-radius: 4px;
   box-shadow: inset 0px 0px 16px -2px #442200;
   margin-left: 24px;   
-  padding-left: 0px; 
+  padding-left: 2px; 
   padding-top: 24px;
 }
 
 .middle {
+  background-color: #FDF5E6;  
   width: 62%;
   border-radius: 4px;
   box-shadow: 4px 4px 8px -1px #442200;
@@ -31,6 +33,7 @@
 }
 
 .right {
+  background-color: #FDF5E6;
   width: 16%;
   margin-left: 12px;   
   padding-left: 20px;
@@ -38,7 +41,7 @@
   padding-top: 24px;
 }
 
-/* Clear floats after the columns */
+/* Clear floats after columns */
 .row:after {
   content: "";
   display: table;
@@ -127,11 +130,13 @@ a:link {
 }
 
 a:hover {
+  color: #442200;
   box-shadow: inset 2px 2px 4px 0.5px #442200;
 }
 
 /* selected menu button */
 a.sel {
+  color: #442200;
   box-shadow: inset 2px 2px 4px 0.5px #442200;
 }
 
@@ -147,7 +152,7 @@ a.topper {
 }
 
 
-/* for copyright info in footer */
+/* for info in footer */
 .footer { 
   color: #442200;
   font-family: Arial, Times, serif;
