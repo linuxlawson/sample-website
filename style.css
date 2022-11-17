@@ -61,27 +61,34 @@ hr.line {
   box-shadow: -.5px -.5px 1px 0px #442200;
 }
 
+hr.linex {
+  border-radius: .5px;
+  border: 1px solid #FDF5E6;
+  box-shadow: -.5px -.5px 1px 0.7px #442200;
+}
+
+
 b {
-  font-family: Arial, Times, serif;
+  font-family: Arial, Verdana, Times, sans-serif;
   color: #442200;
 }
 
 p {
-  font-family: Arial, Times, serif;
+  font-family: "Dejavu Sans", Arial, Verdana, sans-serif;
   color: #442200;
   font-size: 12pt;
 }
 
-/* justify paragraphs (p.3) */
+/* justified paragraphs (p.5) */
 p.just {
-  font-family: Arial, Times, serif;
+  font-family: Arial, Verdana, Times, sans-serif;
   color: #442200;
   text-align: justify;
 }
 
 /* right column paragraphs */
 p.rc {
-  font-family: Arial, Times, serif;
+  font-family: Arial, Verdana, Times, sans-serif;
   color: #442200;
   font-size: 11pt;
   text-align: left;
@@ -89,34 +96,36 @@ p.rc {
 
 /* headers */
 h1 {
-  font-family: Arial, Times, serif;
+  font-family: "Dejavu Sans", Arial, Verdana, sans-serif;
   color: #440000;
 }
 
 h2 {
-  font-family: Arial, Times, serif;
+  font-family: "Dejavu Sans", Arial, Verdana, sans-serif;
   color: #440000;
 }
 
 h3 {
-  font-family: Arial, Times, serif;
+  font-family: "Dejavu Sans", Arial, Verdana, sans-serif;
   color: maroon;
 }
 
 h4 {
-  font-family: Arial, Times, serif;
+  font-family: "Dejavu Sans", Arial, Verdana, sans-serif;
   color: #442200;
 }
 
 h5 {
-  font-family: Arial, Times, serif;
+  font-family: "Dejavu Sans", Arial, Verdana, sans-serif;
   color: #440000;
 }
 
 h6 {
-  font-family: Arial, Times, serif;
+  font-family: "Dejavu Sans", Arial, Verdana, sans-serif;
   color: #440000;
 }
+
+
 
 /* menu links */
 a:link {
@@ -144,7 +153,7 @@ a.sel {
 /* back to top link */
 a.topper {
   color: #440000;
-  font-family: Arial, Times, serif;
+  font-family: Arial, Times, Sans-Serif;
   font-size: 10pt;
   text-decoration: none;
   box-shadow: 0px 0px 0px 0px #442200;
@@ -155,27 +164,36 @@ a.topper {
 /* for info in footer */
 .footer { 
   color: #442200;
-  font-family: Arial, Times, serif;
-  font-size: 9pt;
+  font-family: "Dejavu Sans", Arial, Verdana, sans-serif;
+  font-size: 8pt;
   padding-top: 8px;
   text-align: center;    
   bottom: 0px; 
   width: 100%;
 }  
 
+
+ul.link {
+  list-style-type: none;
+  font-family: "Dejavu Sans", Arial, Verdana, sans-serif;
+  font-size: 12pt;
+  padding: 0px;
+}
+
+
 /* lists */
 ul {
-  font-family: Arial, Times, serif;
+  font-family: Arial, Times, Sans-Serif;
   font-size: 11pt;
 }
 
 ol {
-  font-family: Arial, Times, serif;
+  font-family: Arial, Times, Sans-Serif;
   font-size: 11pt;
 }
 
 dl {
-  font-family: Arial, Times, serif;
+  font-family: Arial, Times, Sans-Serif;
   font-size: 11pt;
 }
 
@@ -187,3 +205,4 @@ hr.circle {
   border: 2px solid #FDF5E6;
   box-shadow: 0px 0px 12px 10px #442200;
 }
+
