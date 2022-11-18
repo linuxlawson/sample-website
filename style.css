@@ -18,7 +18,8 @@
   box-shadow: inset 0px 0px 16px -2px #442200;
   margin-left: 24px;   
   padding-left: 2px; 
-  padding-top: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .middle {
@@ -126,15 +127,17 @@ h6 {
 }
 
 
-
 /* menu links */
 a:link {
+  display: block;
+  width: 74px; /* adjust to link length */
+  font-family: "Dejavu Sans", Arial, Verdana, sans-serif;
   color: #442200;
   text-decoration: none;
   border-radius: 4px;
   padding: 4px;
-  padding-left: 8px;
-  padding-right: 8px;
+  margin-top: 14px;
+  margin-bottom: 14px;
   box-shadow: inset -6px -6px 8px -8px #442200;
 }
 
@@ -149,36 +152,39 @@ a.sel {
   box-shadow: inset 2px 2px 4px 0.5px #442200;
 }
 
-
-/* back to top link */
-a.topper {
-  color: #440000;
-  font-family: Arial, Times, Sans-Serif;
-  font-size: 10pt;
-  text-decoration: none;
-  box-shadow: 0px 0px 0px 0px #442200;
-  padding: 4px;
-}
-
-
-/* for info in footer */
-.footer { 
-  color: #442200;
-  font-family: "Dejavu Sans", Arial, Verdana, sans-serif;
-  font-size: 8pt;
-  padding-top: 8px;
-  text-align: center;    
-  bottom: 0px; 
-  width: 100%;
-}  
-
-
+/* menu link list */
 ul.link {
   list-style-type: none;
   font-family: "Dejavu Sans", Arial, Verdana, sans-serif;
   font-size: 12pt;
   padding: 0px;
 }
+
+
+/* back to top link */
+a.topper {
+  display: block;
+  width: 94px; 
+  color: #440000;
+  font-family: Arial, Times, Sans-Serif;
+  font-size: 10pt;
+  text-decoration: none;
+  box-shadow: 0px 0px 0px 0px #442200;
+  padding: 2px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+
+/* for info in footer */
+.footer { 
+  color: #442200;
+  font-family: Arial, Times, Sans-Serif;
+  font-size: 9pt;
+  padding-top: 8px;
+  text-align: center;    
+  width: 100%;
+}  
 
 
 /* lists */
