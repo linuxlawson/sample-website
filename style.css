@@ -12,18 +12,18 @@
 }
 
 .left {
-  background-color: #FDF5E6;
+  background-color: #FFFFF6;
   width: 16%;
   border-radius: 4px;
   box-shadow: inset 0px 0px 16px -2px #442200;
   margin-left: 24px;   
   padding-left: 2px; 
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .middle {
-  background-color: #FDF5E6;  
+  background-color: #FFFFF6;  
   width: 62%;
   border-radius: 4px;
   box-shadow: 4px 4px 8px -1px #442200;
@@ -34,7 +34,7 @@
 }
 
 .right {
-  background-color: #FDF5E6;
+  background-color: #FFFFF6;
   width: 16%;
   margin-left: 12px;   
   padding-left: 20px;
@@ -50,7 +50,7 @@
 }
 
 body {
-  background-color: #FDF5E6; /* lighter-color:  F1EADF */
+  background-color: #FFFFF6;
   padding: 60px;
   padding-top: 48px;
 }
@@ -187,17 +187,17 @@ a.topper {
 
 /* lists */
 ul {
-  font-family: Arial, Times, Sans-Serif;
+  font-family: "Dejavu Sans", Arial, Verdana, sans-serif;
   font-size: 11pt;
 }
 
 ol {
-  font-family: Arial, Times, Sans-Serif;
+  font-family: "Dejavu Sans", Arial, Verdana, sans-serif;
   font-size: 11pt;
 }
 
 dl {
-  font-family: Arial, Times, Sans-Serif;
+  font-family: "Dejavu Sans", Arial, Verdana, sans-serif;
   font-size: 11pt;
 }
 
