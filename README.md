@@ -6,7 +6,7 @@ using just plain html and css.
 Three column layout  
 made for future use.  
 
-Feel free to use this if you want.  
+Feel free to use if you want. Its a very simple website.  
 Just change content, and adjust colors to your liking.  
 
  
