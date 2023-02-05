@@ -12,7 +12,7 @@
 }
 
 .left {
-  background-color: #FFFFF6;
+  background-color: #FFFFF2;
   width: 16%;
   border-radius: 4px;
   box-shadow: inset 0px 0px 16px -2px #442200;
@@ -23,7 +23,7 @@
 }
 
 .middle {
-  background-color: #FFFFF6;  
+  background-color: #FFFFF2;  
   width: 62%;
   border-radius: 4px;
   box-shadow: 4px 4px 8px -1px #442200;
@@ -34,7 +34,7 @@
 }
 
 .right {
-  background-color: #FFFFF6;
+  background-color: #FFFFF2;
   width: 16%;
   margin-left: 12px;   
   padding-left: 20px;
@@ -50,7 +50,7 @@
 }
 
 body {
-  background-color: #FFFFF6;
+  background-color: #FFFFF2;
   padding: 60px;
   padding-top: 48px;
 }
