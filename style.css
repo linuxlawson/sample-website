@@ -93,6 +93,8 @@ p.rc {
   color: #442200;
   font-size: 11pt;
   text-align: left;
+  border-radius: 3px;
+/*box-shadow: 3px 3px 6px -2px #442200;*/
 }
 
 /* headers */
@@ -201,7 +203,9 @@ dl {
   font-size: 11pt;
 }
 
-/* experimental */
+
+
+/* little circles in menu box */
 hr.circle {
   width: 16px;
   height: 16px;
@@ -210,6 +214,8 @@ hr.circle {
   box-shadow: inset 2px 2px 6px -1px #442200;
 }
 
+
+/* experimental - not being used*/
 hr.halftop {
   width: 60px;
   height: 30px;
