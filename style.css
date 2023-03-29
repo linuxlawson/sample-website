@@ -132,7 +132,7 @@ h6 {
 /* menu links */
 a:link {
   display: block;
-  width: 94px; /* adjust to link length */
+  width: 96px; /* adjust to link length */
   font-family: "Dejavu Sans", Arial, Verdana, sans-serif;
   color: #442200;
   text-decoration: none;
